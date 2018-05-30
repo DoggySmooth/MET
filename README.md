@@ -48,7 +48,7 @@ Format
 
 Plim’s structure is intuitive.
  
-doctype xml
+	doctype xml
 
 	analysis
 	 res			/1..1  
@@ -117,25 +117,21 @@ Run ./xmlMerger.py 'firstXMLfile' 'secondXMLfile'	to generate the merged XML.
 
 					
 
-
+__________________
 --- MET HOW TO ---
-
+__________________
 
 
 STEPS:
 
-	1.CREATE A PLIM FILE WITH AN ANALISIS
-	2.PASTE IT IN FOLDER "plims"
-	3.execute python3 amrev.py "plimFile"
-	4.ALL THE OUPUT IS AVAILABLE IN FOLDER "output/$(nameOfPlim)/"
+	1. CREATE A PLIM FILE WITH AN ANALISIS
+	2. PASTE IT IN FOLDER "plims"
+	3. execute python3 amrev.py "plimFile"
+	4. ALL THE OUPUT IS AVAILABLE IN FOLDER "output/$(nameOfPlim)/"
 
 
 Let's start with the plim writing.
-PLIM file will be converted in XML and the XML will be checked if there is the correct syntax with the help of xsd. The XSD schema is in lib/schema/.
-
-To pass the XSD validation, a plim schema is available under "doc".
-
-	- templateWithCardinals
+PLIM file will be converted in XML and the XML will be checked if there is the correct syntax with the help of xsd. The XSD schema is in "res/schema/".
 
 By looking at it, we know how to structure our plim file. The cardinals shows if a tag can be ommited or repeated.
 
@@ -199,7 +195,7 @@ This plim file is self explanatory.
 This example is found under directory examples.
 
 run compile.py plim 			to generate its xml
-run xml2json.py xmlFile --strip_text 	to generate json     
+run met-x2j.py 				to generate json     
 run met-graph.py jsonFile		to generate svg
 run met-report.py jsonFile		to generate html
 
