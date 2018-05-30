@@ -112,8 +112,8 @@ The launching scripts are under “ scripts”.
 
 Merging
 
-In the directory "met/scripts/" there is the python script called xmlMerger.py.
-Run ./xmlMerger.py 'firstXMLfile' 'secondXMLfile'	to generate the merged XML.
+In the directory "met/scripts/" there is the python script called met-merger.py.
+Run ./met-merger.py 'firstXMLfile' 'secondXMLfile'	to generate the merged XML.
 
 					
 
