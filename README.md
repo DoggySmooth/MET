@@ -51,8 +51,8 @@ Plim’s structure is intuitive.
 doctype xml
 
 analysis
- res			/1..1 
- metadata-------------	/1..*
+ res			/1..1 \n
+ metadata-------------	/1..* \n
   date			/1..1 
   access 		/1..1
   accessloc 		/1..1
