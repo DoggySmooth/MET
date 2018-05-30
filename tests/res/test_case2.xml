@@ -1,0 +1,22 @@
+<analysis>
+  <res>test</res>
+  <met>
+    <date>10121993</date>
+    <access>10121993</access>
+    <accessloc>googleplay</accessloc>
+    <author>Tom</author>
+    <email>Tom@test.com</email>
+    <permission>shared</permission>
+    <tags>trojan</tags>
+  </met>
+  <data>
+    <art>
+      <loc>com.adsdk.adwo/H</loc>
+      <type>attribute</type>
+      <name>d</name>
+      <level>benign</level>
+      <descr>It's a WebView that overlays the main screen displaying malicious adds</descr>
+      <tag>Encryptor</tag>
+    </art>
+  </data>
+</analysis>

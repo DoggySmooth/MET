@@ -1,0 +1,26 @@
+/ xml.test
+
+--------------------------
+doctype xml 
+
+analysis
+ res sha256://bsaifbiasoujb2345F3k1bj4F3223r
+ 
+ metadata
+  date 10121993
+  access 10121993
+  accessloc Google
+  author Smooth
+  email smooth@test.com
+  perm shared
+  tags Adware 
+ data 
+  art 
+   loc com.adsdk.adwo/H   
+   type attribute
+   name d
+   level benign  
+   desc It's a WebView that overlays the main screen displaying malicious adds
+   tag Encryptor
+
+

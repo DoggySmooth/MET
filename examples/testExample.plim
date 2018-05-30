@@ -1,0 +1,49 @@
+/ xm.test
+
+--------------------------
+doctype xml 
+
+analysis
+ res sha256://bsaifbiasoujb2345F3k1bj4F3223r
+ metadata
+  date 03041993
+  access 03042012
+  accessloc googleplay
+  author Smooth
+  email smooth
+  perm shared
+  tags trojan,exploit,root
+ metadata
+  date 05091994
+  access 01081998
+  accessloc googleplay
+  author Boo
+  email boos
+  perm shared
+  tags trojan
+ data
+  art 
+   loc com.adsdk.adwo/H   
+   type attribute
+   name d
+   level benign  
+   desc It's a WebView that overlays the main screen displaying malicious adds
+   tag Heavy
+  art 
+   loc com.adsdk.adwo/x   
+   type method 
+   name toString(var X)
+   level malicious
+   desc Converts an String into an encrypted base64 String
+  art 
+   loc com.sdk/L
+   type URL
+   name bhkjnl.commandandcontrol.cn
+   level malicious
+   desc URL of the command and control server used by the malicious app 
+  art 
+   loc com.sdk/L
+   type URL 
+   name bhkjnl.commandandafsd.afs
+   level malicious
+   desc URL of the command and control server used by the malicious app 

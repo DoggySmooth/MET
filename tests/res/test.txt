@@ -1,0 +1,35 @@
+graph {
+	packages [shape=square]
+	"com.adsdk.adwo"
+	packages -- "com.adsdk.adwo"
+	"filecom.adsdk.adwo" [label=file]
+	"com.adsdk.adwo" -- "filecom.adsdk.adwo"
+	"attributecom.adsdk.adwo" [label=attribute]
+	"Hcom.adsdk.adwo" -- "attributecom.adsdk.adwo"
+	"Hcom.adsdk.adwo" [label=H]
+	"filecom.adsdk.adwo" -- "Hcom.adsdk.adwo"
+	"dcom.adsdk.adwo" [label=d fillcolor=yellow style=filled]
+	"attributecom.adsdk.adwo" -- "dcom.adsdk.adwo"
+	"methodcom.adsdk.adwo" [label=method]
+	"xcom.adsdk.adwo" -- "methodcom.adsdk.adwo"
+	"xcom.adsdk.adwo" [label=x]
+	"filecom.adsdk.adwo" -- "xcom.adsdk.adwo"
+	"toString(var X)com.adsdk.adwo" [label="toString(var X)" fillcolor=red style=filled]
+	"methodcom.adsdk.adwo" -- "toString(var X)com.adsdk.adwo"
+	"com.sdk"
+	packages -- "com.sdk"
+	"filecom.sdk" [label=file]
+	"com.sdk" -- "filecom.sdk"
+	"URLcom.sdk" [label=URL]
+	"Lcom.sdk" -- "URLcom.sdk"
+	"Lcom.sdk" [label=L]
+	"filecom.sdk" -- "Lcom.sdk"
+	"bhkjnl.commandandcontrol.cncom.sdk" [label="bhkjnl.commandandcontrol.cn" fillcolor=red style=filled]
+	"URLcom.sdk" -- "bhkjnl.commandandcontrol.cncom.sdk"
+	"URLcom.sdk" [label=URL]
+	"Lcom.sdk" -- "URLcom.sdk"
+	"Lcom.sdk" [label=L]
+	"filecom.sdk" -- "Lcom.sdk"
+	"bhkjnl.commandandafsd.afscom.sdk" [label="bhkjnl.commandandafsd.afs" fillcolor=red style=filled]
+	"URLcom.sdk" -- "bhkjnl.commandandafsd.afscom.sdk"
+}

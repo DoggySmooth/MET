@@ -1,0 +1,31 @@
+graph {
+	packages [shape=square]
+	"com.adsdk.adwo"
+	packages -- "com.adsdk.adwo"
+	"filecom.adsdk.adwo" [label=file]
+	"com.adsdk.adwo" -- "filecom.adsdk.adwo"
+	"Hcom.adsdk.adwo" [label=H]
+	"filecom.adsdk.adwo" -- "Hcom.adsdk.adwo"
+	attributeH [label=attribute]
+	"Hcom.adsdk.adwo" -- attributeH
+	dH [label=d fillcolor=yellow style=filled]
+	attributeH -- dH
+	"xcom.adsdk.adwo" [label=x]
+	"filecom.adsdk.adwo" -- "xcom.adsdk.adwo"
+	methodx [label=method]
+	"xcom.adsdk.adwo" -- methodx
+	"toString(var X)x" [label="toString(var X)" fillcolor=red style=filled]
+	methodx -- "toString(var X)x"
+	"com.sdk"
+	packages -- "com.sdk"
+	"filecom.sdk" [label=file]
+	"com.sdk" -- "filecom.sdk"
+	"Lcom.sdk" [label=L]
+	"filecom.sdk" -- "Lcom.sdk"
+	URLL [label=URL]
+	"Lcom.sdk" -- URLL
+	"bhkjnl.commandandcontrol.cnL" [label="bhkjnl.commandandcontrol.cn" fillcolor=red style=filled]
+	URLL -- "bhkjnl.commandandcontrol.cnL"
+	"bhkjnl.commandandafsd.afsL" [label="bhkjnl.commandandafsd.afs" fillcolor=red style=filled]
+	URLL -- "bhkjnl.commandandafsd.afsL"
+}

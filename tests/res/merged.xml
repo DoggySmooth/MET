@@ -1,0 +1,52 @@
+<analysis>
+  <res>test</res>
+  <metadata>
+    <date>03041993</date>
+    <access>03042012</access>
+    <accessloc>googleplay</accessloc>
+    <author>Smooth</author>
+    <email>smooth</email>
+    <perm>shared</perm>
+    <tags>trojan,exploit,root</tags>
+  </metadata>
+  <metadata>
+    <date>05091994</date>
+    <access>01081998</access>
+    <accessloc>googleplay</accessloc>
+    <author>Boo</author>
+    <email>boos</email>
+    <perm>shared</perm>
+    <tags>trojan</tags>
+  </metadata>
+  <data>
+    <art>
+      <loc>com.adsdk.adwo/H</loc>
+      <type>attribute</type>
+      <name>d</name>
+      <level>benign</level>
+      <desc>It's a WebView that overlays the main screen displaying malicious adds</desc>
+      <tag>Heavy</tag>
+    </art>
+    <art>
+      <loc>com.adsdk.adwo/x</loc>
+      <type>method</type>
+      <name>toString(var X)</name>
+      <level>malicious</level>
+      <desc>Converts an String into an encrypted base64 String</desc>
+    </art>
+    <art>
+      <loc>com.sdk/L</loc>
+      <type>URL</type>
+      <name>bhkjnl.commandandcontrol.cn</name>
+      <level>malicious</level>
+      <desc>URL of the command and control server used by the malicious app</desc>
+    </art>
+    <art>
+      <loc>com.sdk/L</loc>
+      <type>URL</type>
+      <name>bhkjnl.commandandafsd.afs</name>
+      <level>malicious</level>
+      <desc>URL of the command and control server used by the malicious app</desc>
+    </art>
+  </data>
+</analysis>

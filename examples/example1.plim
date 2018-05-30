@@ -1,0 +1,60 @@
+
+doctype xml
+
+analysis
+ res sha256://voasid23r2viz141ir5v13412312rv12o 
+ metadata
+  date 22052018
+  access 22052018
+  accessloc Androzoo
+  author Smooth
+  email smooth@smooth.smooth
+  perm shared
+  tags exfiltration,adware
+ data
+  art
+   loc com.adwo.adsdk/E
+   type Class
+   name E
+   level malicious
+   desc Capable of trigger intents and actions based on url. Apks and img are written to SD bycalling n-class functions.
+   tag remote
+
+  art
+   loc com.adwo.adsdk/n
+   type Class
+   name n
+   level malicious
+   desc It's able to write to sd, images and apks.
+   tag IO,SD
+
+  art
+   loc com.adwo.adsdk/y
+   type Class
+   name y
+   level malicious
+   desc load files from an url and can write it to the database.
+   tag db
+
+  art
+   loc com.adwo.adsdk/b
+   type Class
+   name b
+   level malicious
+   desc has an undecompilable code that sets up an http client and a proxy. Potential download of an AD.
+   tag httpclient,proxy
+
+  art
+   loc com.adwo.adsdk/R
+   type Class
+   name R
+   level bening
+   desc using FSAd. Respond to bytes recieved and decrypt them.
+   tag encryptor
+  art
+   loc com.adwo.adsdk/m
+   type Class
+   name m
+   level bening
+   desc need Read Phone State Permission. Sensitive data exfiltration?
+   tag exfiltration

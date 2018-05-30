@@ -1,0 +1,25 @@
+/ xml.test
+
+--------------------------
+doctype xml 
+
+analysis
+ res test
+ met
+  date 10121993
+  access 10121993
+  accessloc googleplay
+  author Tom
+  email Tom@test.com
+  perm shared
+  tags trojan
+ data 
+  art 
+   loc com.adsdk.adwo/H   
+   type attribute
+   name d
+   level benign  
+   desc It's a WebView that overlays the main screen displaying malicious adds
+   tag Encryptor
+
+

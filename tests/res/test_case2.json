@@ -1,0 +1,24 @@
+{
+    "analysis": {
+        "data": {
+            "art": {
+                "descr": "It's a WebView that overlays the main screen displaying malicious adds",
+                "level": "benign",
+                "loc": "com.adsdk.adwo/H",
+                "name": "d",
+                "tag": "Encryptor",
+                "type": "attribute"
+            }
+        },
+        "met": {
+            "access": "10121993",
+            "accessloc": "googleplay",
+            "author": "Tom",
+            "date": "10121993",
+            "email": "Tom@test.com",
+            "permission": "shared",
+            "tags": "trojan"
+        },
+        "res": "sha256://bsaifbiasoujb2345F3k1bj4F3223r"
+    }
+}

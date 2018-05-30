@@ -1,0 +1,66 @@
+{
+    "analysis": {
+        "data": {
+            "art": [
+                {
+                    "desc": "Capable of trigger intents and actions based on url. Apks and img are written to SD bycalling n-class functions.",
+                    "level": "malicious",
+                    "loc": "com.adwo.adsdk/E",
+                    "name": "E",
+                    "tag": "remote",
+                    "type": "Class"
+                },
+                {
+                    "desc": "It's able to write to sd, images and apks.",
+                    "level": "malicious",
+                    "loc": "com.adwo.adsdk/n",
+                    "name": "n",
+                    "tag": "IO,SD",
+                    "type": "Class"
+                },
+                {
+                    "desc": "load files from an url and can write it to the database.",
+                    "level": "malicious",
+                    "loc": "com.adwo.adsdk/y",
+                    "name": "y",
+                    "tag": "db",
+                    "type": "Class"
+                },
+                {
+                    "desc": "has an undecompilable code that sets up an http client and a proxy. Potential download of an AD.",
+                    "level": "malicious",
+                    "loc": "com.adwo.adsdk/b",
+                    "name": "b",
+                    "tag": "httpclient,proxy",
+                    "type": "Class"
+                },
+                {
+                    "desc": "using FSAd. Respond to bytes recieved and decrypt them.",
+                    "level": "bening",
+                    "loc": "com.adwo.adsdk/R",
+                    "name": "R",
+                    "tag": "encryptor",
+                    "type": "Class"
+                },
+                {
+                    "desc": "need Read Phone State Permission. Sensitive data exfiltration?",
+                    "level": "bening",
+                    "loc": "com.adwo.adsdk/m",
+                    "name": "m",
+                    "tag": "exfiltration",
+                    "type": "Class"
+                }
+            ]
+        },
+        "metadata": {
+            "access": "22052018",
+            "accessloc": "Androzoo",
+            "author": "Smooth",
+            "date": "22052018",
+            "email": "smooth@smooth.smooth",
+            "perm": "shared",
+            "tags": "adware"
+        },
+        "res": "sha256://voasid23r2viz141ir5v13412312rv12o"
+    }
+}

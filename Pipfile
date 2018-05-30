@@ -1,0 +1,25 @@
+[packages]
+lxml = "*"
+ijson = "*"
+graphviz = "*"
+html5print = "*"
+jinja2 = "*"
+xmltodict = "*"
+"e1839a8" = {path = ".", editable = true}
+
+[dev-packages]
+mypy = "*"
+yapf = "*"
+isort = "*"
+ptpdb = "*"
+twine = "*"
+wheel = "*"
+pytest = "*"
+neovim = "*"
+sphinx = "*"
+ptpython = "*"
+docutils = "*"
+"flake8" = "*"
+hypothesis = "*"
+pytest-cov = "*"
+"e1839a8" = {editable = true, path = "."}

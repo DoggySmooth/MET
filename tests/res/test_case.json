@@ -1,0 +1,58 @@
+{
+    "analysis": {
+        "data": {
+            "art": [
+                {
+                    "desc": "It's a WebView that overlays the main screen displaying malicious adds",
+                    "level": "benign",
+                    "loc": "com.adsdk.adwo/H",
+                    "name": "d",
+                    "tag": "Heavy",
+                    "type": "attribute"
+                },
+                {
+                    "desc": "Converts an String into an encrypted base64 String",
+                    "level": "malicious",
+                    "loc": "com.adsdk.adwo/x",
+                    "name": "toString(var X)",
+                    "type": "method"
+                },
+                {
+                    "desc": "URL of the command and control server used by the malicious app",
+                    "level": "malicious",
+                    "loc": "com.sdk/L",
+                    "name": "bhkjnl.commandandcontrol.cn",
+                    "type": "URL"
+                },
+                {
+                    "desc": "URL of the command and control server used by the malicious app",
+                    "level": "malicious",
+                    "loc": "com.sdk/L",
+                    "name": "bhkjnl.commandandafsd.afs",
+                    "type": "URL"
+                }
+            ]
+        },
+        "metadata": [
+            {
+                "access": "03042012",
+                "accessloc": "googleplay",
+                "author": "Smooth",
+                "date": "03041993",
+                "email": "smooth",
+                "perm": "shared",
+                "tags": "trojan,exploit,root"
+            },
+            {
+                "access": "01081998",
+                "accessloc": "googleplay",
+                "author": "Boo",
+                "date": "05091994",
+                "email": "boos",
+                "perm": "shared",
+                "tags": "trojan"
+            }
+        ],
+        "res": "sha256://bsaifbiasoujb2345F3k1bj4F3223r"
+    }
+}
