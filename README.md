@@ -50,24 +50,24 @@ Plim’s structure is intuitive.
  
 doctype xml
 
-analysis
- res			/1..1  
- metadata-------------	/1..*  
-  date			/1..1  
-  access 		/1..1  
-  accessloc 		/1..1  
-  author 		/1..1  
-  email 		/1..1  
-  perm			/1..1  
-  tags 			/1..1  
- data			/1..1  
-  art	-------------	/1..*  
-   loc			/1..1  
-   type			/1..1  
-   name 		/1..1  
-   level		/1..1  
-   desc			/1..1  
-   tag			/0..*  
+	analysis
+	 res			/1..1  
+	 metadata-------------	/1..*  
+	  date			/1..1  
+	  access 		/1..1  
+	  accessloc 		/1..1  
+	  author 		/1..1  
+	  email 		/1..1  
+	  perm			/1..1  
+	  tags 			/1..1  
+	 data			/1..1  
+	  art	-------------	/1..*  
+	   loc			/1..1  
+	   type			/1..1  
+	   name 		/1..1  
+	   level		/1..1  
+	   desc			/1..1  
+	   tag			/0..*  
 ______________
 
 Technical data
