@@ -199,9 +199,6 @@ run met-x2j.py 				to generate json
 run met-graph.py jsonFile		to generate svg  
 run met-report.py jsonFile		to generate html  
 
- - see *.html
- - see Graph.vg.svg
-
 The atomic tools are located in directory "met/scripts/". 
 Instead of running the above script, each step can be done manually.
 
