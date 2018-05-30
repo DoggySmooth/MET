@@ -194,10 +194,10 @@ NOW LETS MOVE ON WITH THE MAIN ANALYSIS
 This plim file is self explanatory.
 This example is found under directory examples.
 
-run compile.py plim 			to generate its xml
-run met-x2j.py 				to generate json     
-run met-graph.py jsonFile		to generate svg
-run met-report.py jsonFile		to generate html
+run compile.py plim 			to generate its xml  
+run met-x2j.py 				to generate json  
+run met-graph.py jsonFile		to generate svg  
+run met-report.py jsonFile		to generate html  
 
  - see *.html
  - see Graph.vg.svg
