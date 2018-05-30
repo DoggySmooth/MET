@@ -18,20 +18,20 @@ MET could so implement a whole bunch of features manipulating the data.
 
 Features:
 
-	1.Graph generation
+	1. Graph generation
 	
 	Easy graph generation showing how the package is structured and which nodes are
 	malicious.
 
-	2.JSON generation
+	2. JSON generation
 	
 	Maschine to Maschine data transfer and manipulation using well known JSON format	
-	3.HTML 
+	3. HTML 
 
 	Displaying analysis in an easy to read format displaying the malicious behavior 	
 	of classes, packages or methods with an description.
 
-	4.Merging
+	4. Merging
 
 	Merging of generated XML files from plims together in an unique file.
 
@@ -51,23 +51,23 @@ Plim’s structure is intuitive.
 doctype xml
 
 analysis
- res			/1..1 \n
- metadata-------------	/1..* \n
-  date			/1..1 
-  access 		/1..1
-  accessloc 		/1..1
-  author 		/1..1
-  email 		/1..1
-  perm			/1..1
-  tags 			/1..1
- data			/1..1
-  art	-------------	/1..*
-   loc			/1..1
-   type			/1..1
-   name 		/1..1
-   level		/1..1
-   desc			/1..1
-   tag			/0..*
+ res			/1..1  
+ metadata-------------	/1..*  
+  date			/1..1  
+  access 		/1..1  
+  accessloc 		/1..1  
+  author 		/1..1  
+  email 		/1..1  
+  perm			/1..1  
+  tags 			/1..1  
+ data			/1..1  
+  art	-------------	/1..*  
+   loc			/1..1  
+   type			/1..1  
+   name 		/1..1  
+   level		/1..1  
+   desc			/1..1  
+   tag			/0..*  
 ______________
 
 Technical data
@@ -143,56 +143,56 @@ NOTE: ITS IMPORTANT TO TAKE CARE FOR A CORRECT INDENTATION.
 
 The first part are meta datas about the reverse
 
-analysis
- res sha256://bsaifbiasoujb2345F3k1bj4F3223r
- metadata
-  date 03041993
-  access 03042012
-  accessloc googleplay
-  author Smooth
-  email smooth
-  perm shared
-  tags trojan,exploit,root 
- metadata
-  date 05091994
-  access 01081998
-  accessloc googleplay
-  author Boo
-  email boos
-  perm shared
-  tag trojan
+analysis  
+ res sha256://bsaifbiasoujb2345F3k1bj4F3223r  
+ metadata  
+  date 03041993  
+  access 03042012  
+  accessloc googleplay  
+  author Smooth  
+  email smooth  
+  perm shared  
+  tags trojan,exploit,root   
+ metadata  
+  date 05091994  
+  access 01081998  
+  accessloc googleplay  
+  author Boo  
+  email boos  
+  perm shared  
+  tag trojan  
 
 As usual. That kind of information can be easily extracted from most reverse engineer tools for android applications and put there for informative purpose.
 
 
 NOW LETS MOVE ON WITH THE MAIN ANALYSIS
 
- data
-  art
-   loc com.adsdk.adwo/H
-   type attribute
-   name d
-   level benign
-   desc It's a WebView that overlays the main screen displaying malicious adds
-   tag Heavy
-  art
-   loc com.adsdk.adwo/x
-   type method
-   name toString(var X)
-   level malicious
-   desc Converts an String into an encrypted base64 String
-  art
-   loc com.sdk/L
-   type URL
-   name bhkjnl.commandandcontrol.cn
-   level malicious
-   desc URL of the command and control server used by the malicious app
-  art
-   loc com.sdk/L
-   type URL
-   name bhkjnl.commandandafsd.afs
-   level malicious
-   desc URL of the command and control server used by the malicious app
+ data  
+  art  
+   loc com.adsdk.adwo/H  
+   type attribute  
+   name d  
+   level benign  
+   desc It's a WebView that overlays the main screen displaying malicious adds  
+   tag Heavy  
+  art  
+   loc com.adsdk.adwo/x  
+   type method  
+   name toString(var X)  
+   level malicious  
+   desc Converts an String into an encrypted base64 String  
+  art  
+   loc com.sdk/L  
+   type URL  
+   name bhkjnl.commandandcontrol.cn  
+   level malicious  
+   desc URL of the command and control server used by the malicious app  
+  art  
+   loc com.sdk/L  
+   type URL  
+   name bhkjnl.commandandafsd.afs  
+   level malicious  
+   desc URL of the command and control server used by the malicious app  
                                                                          
 This plim file is self explanatory.
 This example is found under directory examples.
